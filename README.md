@@ -72,3 +72,11 @@ Hyperparameter optimization was applied to all algorithms before evaluation.
 - Pandas
 - NumPy
 - Matplotlib / Seaborn
+
+## Dataset
+
+The dataset used in this project is publicly available.
+
+Source:
+- momentum-lab/news-categories (https://huggingface.co/datasets/momentum-lab/news-categories)
+

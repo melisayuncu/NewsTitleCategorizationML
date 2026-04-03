@@ -1,5 +1,3 @@
-# NewsTitleCategorizationML
-News title classification using machine learning models with TF-IDF, feature selection, and class imbalance handling.
 # News Title Classification using Machine Learning
 
 This project focuses on classifying news headlines into categories using various machine learning algorithms. The study includes handling class imbalance, feature extraction, feature selection, and model comparison.
@@ -44,3 +42,12 @@ TF-IDF vectorization is applied:
 
 ```python
 TfidfVectorizer(max_features=10000, stop_words='english')
+
+## Models Used
+Logistic Regression ✅ (optimized)
+Naive Bayes
+Linear SVC
+Random Forest
+K-Nearest Neighbors (with normalization)
+Decision Tree
+XGBoost

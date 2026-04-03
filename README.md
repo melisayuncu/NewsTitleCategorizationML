@@ -42,12 +42,33 @@ TF-IDF vectorization is applied:
 
 ```python
 TfidfVectorizer(max_features=10000, stop_words='english')
+```
 
 ## Models Used
-Logistic Regression ✅ (optimized)
-Naive Bayes
-Linear SVC
-Random Forest
-K-Nearest Neighbors (with normalization)
-Decision Tree
-XGBoost
+- Logistic Regression ✅ (optimized)
+- Naive Bayes
+- Linear SVC
+- Random Forest
+- K-Nearest Neighbors (with normalization)
+- Decision Tree
+- XGBoost
+
+Hyperparameter optimization was applied to all algorithms before evaluation.
+
+## Key Insights
+- Class imbalance significantly affects model performance
+- TF-IDF + Chi-square improves efficiency and accuracy
+- Logistic Regression performed well after optimization
+- Feature selection reduces dimensionality without major performance loss
+
+## Future Work
+- Deep learning models (LSTM, BERT)
+- More balanced dataset
+- Advanced text preprocessing techniques
+
+## Technologies Used
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib / Seaborn

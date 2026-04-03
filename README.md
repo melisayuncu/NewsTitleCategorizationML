@@ -45,7 +45,7 @@ TfidfVectorizer(max_features=10000, stop_words='english')
 ```
 
 ## Models Used
-- Logistic Regression ✅ (optimized)
+- Logistic Regression
 - Naive Bayes
 - Linear SVC
 - Random Forest

@@ -2,7 +2,7 @@
 
 This project focuses on classifying news headlines into categories using various machine learning algorithms. The study includes handling class imbalance, feature extraction, feature selection, and model comparison.
 
----
+
 
 ## Project Overview
 
@@ -16,7 +16,7 @@ The pipeline includes:
 - Model training and evaluation
 - Performance comparison
 
----
+
 
 ## Dataset
 
@@ -28,14 +28,14 @@ The dataset is imbalanced:
 
 To address this issue, **class weights** are used in the models.
 
----
+
 
 ## Methodology
 
 ### Data Split
 - Train/Test Split: 80% / 20%
 
----
+
 
 ### Feature Extraction
 TF-IDF vectorization is applied:
